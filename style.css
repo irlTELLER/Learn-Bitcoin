@@ -1,0 +1,107 @@
+	.contentbox
+		{background-color: clear;
+		width: 100%;
+		border: 15px solid darkorange;
+		padding: 5px;
+		margin: 5px;
+		}
+	.sidebox
+		{background-color: clear;
+		width: 100%;
+		border: 5px solid darkorange;
+		padding: 5px;
+		margin: 5px;
+		}
+	.fixed {
+		position: fixed;
+		bottom: 1;
+		right: 1;
+	}
+	@font-face 
+		{font-family: "ubuntubolditalic";
+		src: url(ubuntu-bolditalic.ttf);
+		}
+	@font-face 
+		{font-family: "ubunturegular";
+		src: url(ubuntu-regular.ttf);
+		}
+	* 
+		{box-sizing: border-box;
+		font-family: ubunturegular;
+		}
+	.menu 	
+		{float:left;
+ 		width:17%;
+  		text-align:center;
+		margin-left:0px;
+		color:Black;}
+	.menuitem 
+		{background-color:gold;
+  		padding:8px;
+  		margin-top:7px;
+		border-style: outset;}
+	.menuitemcurrent
+		{background-color:darkorange;
+  		padding:8px;
+  		margin-top:7px;
+		border-style: outset;}
+	.main 
+		{float:left;
+ 		width:55%;
+		margin-top: 7px;
+		margin-left: 15px;
+		padding: 0 20px;
+		color:black;
+		background-color:gold;}
+	.right 
+		{background-color:gold;
+  		float:left;
+  		width:25%;
+  		padding: 5px 10px 5px 5px;
+  		margin-top:7px;
+		margin-left: 15px;
+ 		text-align:center;}
+
+	@media only screen and (max-width:620px) 
+		{/* For mobile phones: */
+  			.menu, .main, .right 
+			{width:100%;}
+		}
+	.body
+		{color:black;
+		font-size:1.5vw;
+		background-image:url('BitcoinForBackground.png');
+		padding:5px 5px 5px 5px}
+	.header
+		{background-color:gold;
+		font-family:ubuntubolditalic;
+		color:black;
+		padding:13px;
+		text-align:center;
+		font-size:4.5vw}
+	.footer
+		{background-color:gold;
+		color:black;
+		padding:5px;
+		text-align:center;} 
+	.image
+		{width:300px; 
+		heigh:300px;
+		padding:0px 0px 40px 50px; 
+		}
+	a:link
+		{color:Black;
+		background-color:transparent;
+		text-decoration:none;}
+	a:visited
+		{color:Black;
+		background-color:transparent;
+		text-decoration:none;}
+	a:hover
+		{color:Green;
+		background-color:transparent;
+		text-decoration:underline;}
+	a:active
+		{color:blue;
+		background-color:transparent;
+		text-decoration:none;}

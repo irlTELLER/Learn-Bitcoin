@@ -7,86 +7,17 @@
 	<meta name="keywords" content="bitcoin, blockchain, educational">
 	<meta name="author" content="Jacob Haimerl">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-	* 
-		{box-sizing: border-box;}
-	.menu 	
-		{float:left;
- 		width:20%;
-  		text-align:center;
-		color:Black;}
-	.menuitem 
-		{background-color:gold;
-  		padding:8px;
-  		margin-top:7px;}
-	.menuitemcurrent
-		{background-color:white;
-  		padding:8px;
-  		margin-top:7px;}
-	.main 
-		{float:left;
- 		width:60%;
-		margin-top:7px;
-		padding:0 20px;
-		color:black;
-		background-color:gold;}
-	.right 
-		{background-color:gold;
-  		float:left;
-  		width:20%;
-  		padding:15px;
-  		margin-top:7px;
- 		text-align:center;}
-
-	@media only screen and (max-width:620px) 
-		{/* For mobile phones: */
-  			.menu, .main, .right 
-			{width:100%;}
-		}
-	.body
-		{color:white
-		font-size:2.5vw;
-		background-image:url('BitcoinForBackground.png');}
-	.header
-		{background-color:gold;
-		color:black;
-		padding:13px;
-		text-align:center;
-		font-size:4.5vw}
-	.footer
-		{background-color:gold;
-		color:black;
-		padding:15px;
-		text-align:center;} 
-	.image
-		{width:250px;
-		height:450px;}
-	a:link
-		{color:Black
-		background-color:transparent;
-		text-decoration:none;}
-	a:visited
-		{color:Black;
-		background-color:transparent;
-		text-decoration:none;}
-	a:hover
-		{color:red;
-		background-color:transparent;
-		text-decoration:underline;}
-	a:active
-		{color:blue;
-		background-color:transparent;
-		text-decoration:none;}	
-</style>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body class="body">
 
+<body class="body">
 	<div class="header">
 		<img 
 			src="Bitcoin.png" 
 			alt="Bitcoin Accepted Here"
 			style="width:75%;">
-  		<h1>Your First Transaction</h1>
+  		<h1>Your First Transaction
+		</h1>
 	</div>
 
 	<div style="overflow:auto">
@@ -118,70 +49,98 @@
   		</div>
 
   		<div class="main">
-    			<h2>Sending Bitcoins to Others</h2>
-    				<p>Now that you have your bitcoin on your wallet, I'm sure you are just waiting
-				to know how to send funds from your phone now. I had mentioned before that the donation
-				wallet I had set up, I will use it now as an example.</p>
-				<img
-					src="BitcoinWalletInterface.png"
-					atl="Bitcoin Wallet Interface"
-					class="image">
-				<p>Click on the "Send Coins". It will bring you to this page.</p>
-
-				<img
-					src="ShowingCameraInSendCoinsPage.jpg"
-					alt="Send Coins Page in Mobile Wallet"
-					class="image">
-
-				<p>The camera will pop up; it will look like this.</p>
-
-				<img
-					src="CameraScanScreen.png"
-					alt="Scan Screen"
-					style="width:95%;">
-
-				<p>Scan this QR Scanner.</p>
-
-				<img
-					src="BitcoinDonationAddress.png"
-					alt="Bitcoin Donation address"
-					style="width:150px;height:150px;">
+    			<h2>Sending Bitcoins to Others
+			</h2>
+			
+				<div class="contentbox">
+	    				<p>Now that you have your bitcoin on your wallet, I'm sure you are just waiting
+					to know how to send funds from your phone now. I had mentioned before that the donation
+					wallet I had set up, I will use it now as an example.
+					</p>
+					<img
+						src="BitcoinWalletInterface.png"
+						atl="Bitcoin Wallet Interface"
+						class="image">
+				</div>
 				
-				<p>Now input the amount you wish to send. Any amount is greatly appreciated. 
-				Remember, the system works on <b>LOWER</b> fees, not free. You will have to pay, as of this writing, about $0.32.</p>
+				<div class="contentbox">
+					<p>Click on the "Send Coins". It will bring you to this page.
+					</p>
 
-				<p>Next hit the send button. I will get a notification on the wallet right away, 
-				and after around an hour the transaction will be finalized. Remember that after you 
-				send a transaction, not when it is confirmed, you can not reverse it if it has the correct credetials.</p>
+					<img
+						src="ShowingCameraInSendCoinsPage.jpg"
+						alt="Send Coins Page in Mobile Wallet"
+						class="image">
+				</div>
+				
+				<div class="contentbox">
+					<p>The camera will pop up; it will look like this.
+					</p>
 
-				<p>You now know how to participate in the Bitcoin Network. This networks works with the more people who use it. 
-				As you see, once you get started, it is not that hard of an instrument to use. If you can spread the word, that will help
-				the most. Enjoy the World of Crypto.</p>
+					<img
+						src="CameraScanScreen.png"
+						alt="Scan Screen"
+						style="width:95%;">
+				</div>
+				
+				<div class="contentbox">
+					<p>Scan this QR Scanner.
+					</p>
+
+					<img
+						src="BitcoinDonationAddress.png"
+						alt="Bitcoin Donation address"
+						style="width:150px;height:150px;">
+				</div>
+				
+				<div class="contentbox">
+					<p>Now input the amount you wish to send. Any amount is greatly appreciated. 
+					Remember, the system works on <b>LOWER</b> fees, not free.  **This is not the case anymore Fee are a real issue with
+					bitcoin and need to be fixed before I would consider using it again. Stop here if fees are not fixed.**
+					</p>
+
+					<p>Next hit the send button. I will get a notification on the wallet right away, 
+					and after around an hour the transaction will be finalized. Remember that after you 
+					send a transaction, not when it is confirmed, you can not reverse it if it has the correct credetials.
+					</p>
+
+					<p>You now know how to participate in the Bitcoin Network. This networks works with the more people who use it. 
+					As you see, once you get started, it is not that hard of an instrument to use. If you can spread the word, that will help
+					the most. Enjoy the World of Crypto.
+					</p>
+				</div>
   		</div>
 
   		<div class="right">
-    			<h2>Double Check Addresses</h2>
-    				<p>When you are going to send a transaction, take a few seconds to check the address. There can be malware that will change the
-				address and send it to a hackers address. This can be avoided if you double-check the address before hitting send.</p>
+			<div class="sidebox">
+	    			<h2>Double Check Addresses
+				</h2>
+				
+	    				<p>When you are going to send a transaction, take a few seconds to check the address. There can be malware that will change the
+					address and send it to a hackers address. This can be avoided if you double-check the address before hitting send.
+					</p>
+			</div>
   		</div>
 	</div>
 	<br>
 	<br>
 
 	<div class="footer">
-		<p><img
+		<p>
+			<img
 				src="BitcoinDonationAddress.png"
 				alt="Donation Bitcoin Address"
 				style="width:60px; heigh:60px;"
 				align="center">
-		Donation address <b>194gUJW7ShEsSM3Sb5SK5q8YNASgWNuMpd</b>
-		<img
+				
+				Donation address <b>194gUJW7ShEsSM3Sb5SK5q8YNASgWNuMpd</b>
+				
+			<img
 				src="BitcoinDonationAddress.png"
 				alt="Donation Bitcoin Address"
 				style="width:60px; heigh:60px;"
 				align="center">
 		</p>
 	</div>
-
 </body>
 </html>
