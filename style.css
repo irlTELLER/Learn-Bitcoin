@@ -110,7 +110,7 @@
 		}
 	.body
 		{color:black;
-		font-size:1.5vw;
+		font-size:3.5vw;
 		background-image:url('BitcoinForBackground.png');
 		padding:5px 5px 5px 5px;
 		border-radius: 15px;}
@@ -129,7 +129,8 @@
 		padding:5px;
 		text-align:center;
 		border: 1px solid yellow;
-		border-radius: 15px;} 
+		border-radius: 15px;
+		font-size: 1.5vw} 
 	.image
 		{width:auto; 
 		heigh:auto;
