@@ -131,10 +131,10 @@
 		border: 1px solid yellow;
 		border-radius: 15px;} 
 	.image
-		{width:300px; 
-		heigh:300px;
-		padding:0px 0px 40px 50px; 
-		border-radius: 15px;}
+		{width:auto; 
+		heigh:auto;
+		max-width: 100%;
+		}
 	.button
 		{
 			width: 100px;
